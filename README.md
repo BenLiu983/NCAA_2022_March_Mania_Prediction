@@ -31,7 +31,7 @@ mens-march-mania-2022.zip
 * Computer Ratings
 * Metric difference
 
-<img width="1251" alt="df_train" src="https://user-images.githubusercontent.com/64850893/159125378-5592d54d-7693-4095-aaee-d9cf2eefc7fc.png">
+<img width="1129" alt="fea imp" src="https://user-images.githubusercontent.com/64850893/159127392-5a3fea2c-faa0-4640-9a48-9c86a8b7668a.png">
 
 ### 5.2 Test set
 
@@ -40,7 +40,7 @@ mens-march-mania-2022.zip
 * Computer Ratings
 * Metric difference
 
-<img width="1227" alt="df_test" src="https://user-images.githubusercontent.com/64850893/159125184-92c2f0d4-409b-4811-bc8d-be16c29cb8c0.png">
+<img width="1121" alt="df test 2" src="https://user-images.githubusercontent.com/64850893/159127628-79a14a75-3c99-46be-858c-2e70ad54de87.png">
 
 ## 6. Modelling (LightGBM)
 
