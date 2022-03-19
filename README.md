@@ -16,60 +16,33 @@ You're provided data of historical NCAA games and are encouraged to use other so
 
 ## 3. Objectives
 
-
+<img width="723" alt="goal" src="https://user-images.githubusercontent.com/64850893/159124819-c0ec08e9-f85d-4edc-9037-9631e05bd184.png">
 
 ## 4. Data Sources
 
-The samples are collected from the customer data plarform and a set of surveys, and the time period is from Q1 2020 to Q1 2021. 
+mens-march-mania-2022.zip
 
 ## 5. Data Preparation and EDA
 
-### 5.1 Ouput Variables (MJN - 1, others - 0):
+### 5.1 Train set
 
-<img width="989" alt="stage 2 brand 4" src="https://user-images.githubusercontent.com/64850893/155889230-1b53cca2-0e6b-477d-b9ff-a6c5efaf9112.png">
+* Seeds
+* Season Stats
+* Computer Ratings
+* Metric difference
 
-* Will oversample in the next session because of the imbalanced dataset.
+<img width="1251" alt="df_train" src="https://user-images.githubusercontent.com/64850893/159125378-5592d54d-7693-4095-aaee-d9cf2eefc7fc.png">
 
-### 5.2 Input Variables:
+### 5.2 Test set
 
-The below visualizations will follow a segment analysis (our Stage 2 product user group vs non-user group)
+* Seeds
+* Season Stats
+* Computer Ratings
+* Metric difference
 
-Previous Brand (behavioral):
+<img width="1227" alt="df_test" src="https://user-images.githubusercontent.com/64850893/159125184-92c2f0d4-409b-4811-bc8d-be16c29cb8c0.png">
 
-<img width="1115" alt="pre brand 3" src="https://user-images.githubusercontent.com/64850893/155889095-575b5a70-d3e2-4390-b735-14274bf40868.png">
-
-* On the left-hand side, for the non-MJN Stage 2 consumers, 34.6% of them used Nestle Stage 1 as their previous brand. 
-* On the right-hand side, within the MJN Stage 2 user group, 68.8% selected MJN Stage 1 as their previous brand.
-
-Hospital Zone & Province (demographic):
-
-<img width="1019" alt="hos_pro" src="https://user-images.githubusercontent.com/64850893/155888337-731406ab-a5a7-4a1a-8239-8aebdd67ac29.png">
-
-* The left graph reads a notable lift in terms of the percentage of MJN hospital zone in the MJN Stage 2 user group, compared to the non-user group (72% vs 58%). 
-* There isn't a significant difference regarding the province distribution percentage between the MJN Stage 2 user group and the non-user group, which could mean that this feature is less critical in the predictive model.
-
-Education & Number of Children (demographic):
-
-<img width="1019" alt="edu_numofchild" src="https://user-images.githubusercontent.com/64850893/155888499-b4356f87-ae46-41a1-b530-2ac497b07330.png">
-
-* According to the left plot, the overall educational status is higher within the MJN user group.​
-* The distribution of number of children between the user and the non-user group is similar.
-
-Enrollment Type & Enrollment Time by Stage (behavioral):
-
-<img width="1115" alt="enroll_type_and_age2" src="https://user-images.githubusercontent.com/64850893/155889002-d5a66a9d-595c-403d-83e3-a70f7ad0893c.png">
-
-* The proportion of "self-enrolled" consumers is greater in the user group compared to the non-user group (90% vs 79%).
-* Consumers who enrolled in "Stage 0" (prenatally) take up a higher percentage in the non-user group, while those enrolled in "Stage 1" (0-6 months) account for a larger proportion in the user group. 
-
-Email OR, CTR & Coupon Redemption Rate (behavioral):
-
-<img width="1115" alt="email_coupon2" src="https://user-images.githubusercontent.com/64850893/155889123-55cc7f3c-d2c3-4de2-8554-b9bb41b6c192.png">
-
-* In terms of engagement for the "Prenatal" and "Newborn" emails, the OR and CTR in the user group are drastically higher.
-* Similarly, regarding the "Stage 1" coupon performance, the redemption rate is substantially greater in the user group.
-
-## 6. Modelling
+## 6. Modelling (LightGBM)
 
 ### 6.1 Procedure
 
