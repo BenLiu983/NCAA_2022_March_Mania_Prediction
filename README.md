@@ -48,35 +48,23 @@ mens-march-mania-2022.zip
 
 * Train-test-split
 * Cross validation
-* Oversampling
-* Machine learning algorithms (Logistic Regression and Random Forest)
-* GridSearchCV
+* Model implementation
 
-### 8.2 Model Performance:
+### 6.2 Model Performance:
 
-<img width="1011" alt="model_sum" src="https://user-images.githubusercontent.com/64850893/155891672-6e74397d-6133-4c9e-966d-d56be9b4a38c.png">
+<img width="559" alt="model output" src="https://user-images.githubusercontent.com/64850893/159127293-4223facc-71ee-4f1d-ae73-38db0e6559ca.png">
 
-* Considering the prediction accuracy as well as the model simplicity, Logistic Regression in Case 2 would be the optimal model, since it is more straightforward to interpret, with relevantly high prediction accuracy.
+The submission log loss is 0.42.
 
-### 8.3 Confusion Matrix (Logistic Regression): 
+### 6.3 Feature Importance (Logistic Regression): 
 
-<img width="470" alt="cm_git" src="https://user-images.githubusercontent.com/64850893/155891735-bcfcc378-3bc3-4f0b-9d32-8691ab1ed777.png">
+<img width="1129" alt="fea imp" src="https://user-images.githubusercontent.com/64850893/159127392-5a3fea2c-faa0-4640-9a48-9c86a8b7668a.png">
 
-### 8.4 Feature Importance (Logistic Regression): 
+* Computer rating and avg scoring margin are the top 2 critical features.
 
-<img width="921" alt="lr fea c2" src="https://user-images.githubusercontent.com/64850893/155887997-5a75e3d5-f43c-4752-b055-c1db284e5c3c.png">
+## 7. Future Steps
 
-* Positive features – previous brand as MJN, negative features – previous brand as other brands.
-* If the previous brand is "Abbott Specialty", it plays a positive impact on current MJN Stage 2 brand choice.
-* Number of children is negatively influencing the MJN Stage 2 brand selection .
+* Incorporate more features.
+* Experiment various models.
 
-## 9. Conclusion
 
-* Drive MFB members to become Stage 1 users, due to the fact that the previous brand is a primary indicator.
-* Maintain/boost the quantity/quality of email campaigns, since the email performance is an essential driver.
-* Conduct experimentation to market users with only 1 child, because this metric negatively impact the outcome.
-
-## 10. Next Steps
- 
-* Modify the output and input variables to tailor other business use cases.
-* More experimentation in terms of variables and models.
