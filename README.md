@@ -4,9 +4,7 @@
 
 Kaggle competition
 
-Another year, another chance to predict the upsets, call the probabilities, and put your bracketology skills to the leaderboard test. In our eighth annual March Machine Learning Mania competition, Kagglers will once again join the millions of fans who attempt to predict the outcomes of this year's US men's college basketball tournament. But unlike most fans, you will pick the winners and losers using a combination of rich historical data and computing power, while the ground truth unfolds on television.
-
-You're provided data of historical NCAA games and are encouraged to use other sources of publicly available data to gain a winning edge.
+Goal: Predict the outcomes of this year's US men's college basketball tournament. Pick the winners and losers using a combination of rich historical data and computing power, while the ground truth unfolds on television.
 
 ## 2. Code and Packages
 
@@ -14,7 +12,7 @@ You're provided data of historical NCAA games and are encouraged to use other so
 
 * Packages: pandas, numpy, sklearn, matplotlib, seaborn, lightgbm
 
-## 3. Objectives
+## 3. Metric of Interest
 
 <img width="723" alt="goal" src="https://user-images.githubusercontent.com/64850893/159124819-c0ec08e9-f85d-4edc-9037-9631e05bd184.png">
 
